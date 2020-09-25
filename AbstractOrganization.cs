@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Laboration2
 {
@@ -8,5 +9,6 @@ namespace Laboration2
         protected string Address;
         protected int OrgNr;
         protected string OrgUrl;
+        protected List<AbstractDivision> Divisions;
     }
 }

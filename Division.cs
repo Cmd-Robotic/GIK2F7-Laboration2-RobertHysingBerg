@@ -7,6 +7,11 @@ namespace Laboration2
     {
         private new string Name;
         private new List<Employee> Employees;
+        public Division(string Name, List<Employee> Employees)
+        {
+            this.Name = Name;
+            this.Employees = Employees;
+        }
         public string GetName()
         {
             return this.Name;

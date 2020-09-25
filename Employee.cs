@@ -6,6 +6,11 @@ namespace Laboration2
     {
         private new string Name;
         private new string Occupation;
+        public Employee(string Name, string Occupation)
+        {
+            this.Name = Name;
+            this.Occupation = Occupation;
+        }
         public string GetName()
         {
             return this.Name;
